@@ -17,4 +17,4 @@ end
 
 
 
-puts reverse_each_word(some_sentence).inspect
+puts reverse_each_word2(some_sentence).inspect

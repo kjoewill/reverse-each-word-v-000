@@ -8,8 +8,7 @@ def reverse_each_word2(sentence)
 end
 
 def reverse_each_word(sentence)
-  split_array = sentence.split
-  split_array.collect { |e| e.reverse }.join(" ")
+  sentence.split.collect { |e| e.reverse }.join(" ")
 end
 
 

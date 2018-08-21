@@ -7,5 +7,14 @@ def reverse_each_word(sentence)
   reversed_array.join(" ")
 end
 
+def reverse_each_word2(sentence)
+  split_array = sentence.split
+  reversed_array = split_array.collect { |e| e.reverse }
+  reversed_array.join(" ")
+end
+
+
+
+
 
 puts reverse_each_word(some_sentence).inspect
